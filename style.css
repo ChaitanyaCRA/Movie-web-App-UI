@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+body{
+    background-color: #30364F;
+}
+/* Header css */
+.navbar{
+    height: 4rem;
+    background-color: #15173D;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    font-weight: bold;
+}
+.navbar-font-clr{
+    color: white;
+}
+
+.logo-png{
+    background-image: url("Images/images.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    height: 3rem;
+    width: 7.5rem;
+    display: flex;
+    /* margin-left: -130px;  */
+}
+
+.border{
+    height: 2.5rem;
+    width: 5rem;
+    border: solid;
+    border-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+
+}
+
+.border:hover{
+    border: solid #ACBAC4 0.1rem;
+}
+
+.sign_in_up{
+    height: 3rem;
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color:rgb(5, 59, 71); */
+}
+/* ************************************ */
+    /* Search bar css  */
+.search_box{
+    height: 9rem;    
+    display: flex;
+    justify-content: center;
+}
+
+.search_bar{
+    background-color: #15173D;
+    height: 2.5rem;
+    width: 44rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    border-radius: 0.6rem;  
+    /* box-shadow: 5px 5px 30px gray;  */
+}
+.search_bar:hover{
+    border: solid;
+    border-color: #ACBAC4;
+    box-shadow: 5px 5px 30px gray;
+}
+
+.search_icon{
+    width: 8%;
+    height: 2.6rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: none;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+#searchInput{
+    height: 100%;
+    width: 100%;
+    border: none; 
+    outline: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+#searchBtn{
+    height: 2.6rem;
+    width: 8rem;
+    border: none;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    font-size: large;
+    font-weight: bold;
+    background-color: #ACBAC4;
+}
+#searchBtn:hover{
+    background-color: #15173D;
+    color: #ACBAC4;
+}
+
+
+/* ****************************************************** */
+/* main section */
+main{
+    height: 200vh;
+}
+.movie_grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.box{
+    height: 18rem;
+    width: 12rem;
+    margin-top: 2%;
+    margin-bottom: -1%;
+    margin-right: 0.2%;
+    margin-left: 0.2%;
+    padding-top: 20px; 
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    background-color: #30364F;
+    border-radius: 1rem;
+
+    box-shadow: 5px 5px 30px #ACBAC4;
+
+    background-image:url("Images/movie image.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.line{  /* line below the movie grid*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#gridbelow_line{
+    width: 90%;
+    margin-top: 3%;
+    height: 0.1rem;
+    background-color: #ACBAC4;
+    border-radius: 1rem;
+}
+
+/* ************************************************* */
+/* movie Pop-up section   */
+.description_popup{
+    height: 60vh;
+    background-color:rgb(7, 24, 24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display: none; */
+}
+.movieInfo_popup{
+    height: 25rem;
+    width: 40rem;
+    background-color:darkslategrey;
+    position: relative;   
+}
+.movieDesc_image{
+    height: 18rem;
+    width: 12rem;
+    background-color: aliceblue;
+    margin-top: 4%;
+    margin-left: 2.5%;
+    
+    background-image:url("Images/drishyam2.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.close_btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: large;
+    background: none;
+    border: none;
+    cursor: pointer;
+    
+}
+.close_btn:hover{
+    background-size: 10px;
+    border-radius: 1rem;
+    background-color: white;
+}
+.line_container{
+    display: flex;
+    justify-content: center;
+}
+.popupline{
+    height: 10px;
+    width: 95%;
+    background-color: #ACBAC4;
+    height: 1px;
+}
+h2{
+    height: 3rem;
+    margin-left: 2.5%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+#desc_para{
+    margin-left: 2.5%;
+    padding-top: 15px;
+}
+
+.watchList_btn{
+    height: 2rem;
+    display: flex;
+    /* margin-left: 2.5%; */
+    padding-top: 15px;
+}
+
+.watchList_btn button{ 
+    margin-left: 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
