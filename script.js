@@ -5,4 +5,5 @@ const signupBtn = document.getElementById("sign_up");
 const searchbox = document.querySelector("search_box");
 const searchInput = document.getElementById("searchInput");
 
-const searchbtn = document.getElementById("searchbtn");
+const searchbtn = document.getElementById("searchBtn");
+
