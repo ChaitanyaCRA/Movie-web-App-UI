@@ -6,4 +6,9 @@ const searchbox = document.querySelector("search_box");
 const searchInput = document.getElementById("searchInput");
 
 const searchbtn = document.getElementById("searchBtn");
+const watchbtn = document.querySelector(".watch_now");
+
+   <button class=""> Watch Now </button>
+                    <button class="Add to List"> Add to List </button>
+
 
