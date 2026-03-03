@@ -7,8 +7,5 @@ const searchInput = document.getElementById("searchInput");
 
 const searchbtn = document.getElementById("searchBtn");
 const watchbtn = document.querySelector(".watch_now");
-
-   <button class=""> Watch Now </button>
-                    <button class="Add to List"> Add to List </button>
-
-
+const toListbtn = document.querySelector(".addToList");
+   
