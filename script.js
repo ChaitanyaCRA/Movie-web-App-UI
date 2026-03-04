@@ -10,3 +10,5 @@ const watchbtn = document.querySelector(".watch_now");
 const toListbtn = document.querySelector(".addToList");
    
 
+const BASE_URL = `http://www.omdbapi.com/?apikey=${API_KEY}`;
+
