@@ -9,6 +9,7 @@ const searchbtn = document.getElementById("searchBtn");
 const watchbtn = document.querySelector(".watch_now");
 const toListbtn = document.querySelector(".addToList");
    
-
+// API accessing.
 const BASE_URL = `http://www.omdbapi.com/?apikey=${API_KEY}`;
+
 
