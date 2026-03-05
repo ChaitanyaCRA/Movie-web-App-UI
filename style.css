@@ -7,15 +7,7 @@ body{
     background-color: #30364F;
 }
 /* Header css */
-.navbar{
-    height: 4rem;
-    background-color: #15173D;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-    font-weight: bold;
-}
+
 .navbar-font-clr{
     color: white;
 }
@@ -252,3 +244,4 @@ footer{
     background-color: white;
     
 }
+
