@@ -11,3 +11,8 @@ const toListbtn = document.querySelector(".addToList");
    
 // API accessing.
 const BASE_URL = `http://www.omdbapi.com/?apikey=${API_KEY}`;
+
+// api function to fetch the data from the api.
+asyn function fetchApi(){
+   
+}
